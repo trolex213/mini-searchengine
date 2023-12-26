@@ -1,6 +1,8 @@
 # Mini Search Engine 
 This code implements a simple search engine that can index documents, normalize search queries and document text, expand search queries to include synonyms, and return the most relevant search results. It utilizes several NLP techniques like tokenization, stemming, and synonym finding to facilitate robust text search.
 
+In my code, I used the cnbc_news_datase.csv dataset which I attached in this repository for your reference. But any dataset with the same or similar column name types would suffice. If not, then preprocessing of dataset would be best before proceeding. 
+
 ## Basic Overview of the Code
 The SearchEngine class is the main component, handling indexing documents, normalizing text, and ranking search results. 
 
